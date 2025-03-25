@@ -1,8 +1,0 @@
-Alimento consumido:
-pera
-Cantidad consumida en gramos
-100
-Caloria del alimento por cada 100 gramos
-100
-Total calorias:
-100.0

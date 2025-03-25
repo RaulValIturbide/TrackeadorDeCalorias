@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 package Alimentacion;
 import Interfaz.Menu;
@@ -19,7 +15,7 @@ public class FicheroDia {
     
     
     public static void nuevoDia() {
-        String ruta = "C:\\Users\\baske\\Documents\\dev\\Cacharreo\\ContadorDeCalorias\\Data\\" + sacarDia();
+        String ruta = ".\\Data\\" + sacarDia();
         try {          
             FileWriter fichero = new FileWriter(ruta,true);        
             fichero.write(separacion());

@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package contadordecalorias;
+package Principal;
+import Alimentacion.FicheroDia;
+import Interfaz.Menu;
 import java.io.FileWriter;
 import java.util.Scanner;
 import java.time.LocalDate;
@@ -11,7 +13,7 @@ import java.io.IOException;
  *
  * @author baske
  */
-public class ContadorDeCalorias {
+public class Main {
 
     /**
      * @param args the command line arguments

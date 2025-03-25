@@ -1,4 +1,4 @@
-package contadordecalorias;
+package Interfaz;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -61,7 +61,7 @@ public class Menu {
             correcto = true;
         }
         return correcto;
-    }
+        }
     
     
     
