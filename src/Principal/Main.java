@@ -5,10 +5,8 @@
 package Principal;
 import Alimentacion.FicheroDia;
 import Interfaz.Menu;
-import java.io.FileWriter;
 import java.util.Scanner;
-import java.time.LocalDate;
-import java.io.IOException;
+
 /**
  *
  * @author baske
@@ -22,10 +20,10 @@ public class Main {
     
     public static void main(String[] args) {
         boolean endProgram = false;
-
         do {
+            Menu.limpiarPantalla();
             int main = Menu.Introduccion();
-
+            
             switch (main) {
                 case 1:
                     FicheroDia.nuevoDia();

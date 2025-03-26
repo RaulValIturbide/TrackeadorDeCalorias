@@ -1,0 +1,50 @@
+
+	Nuevo Alimento:
+Alimento consumido:
+Croquetas
+Cantidad consumida en gramos
+50
+Caloria del alimento por cada 100 gramos
+140
+Total calorias:
+70.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Pizza
+Cantidad consumida en gramos
+220
+Caloria del alimento por cada 100 gramos
+224
+Total calorias:
+492.80000000000007
+
+	Nuevo Alimento:
+Alimento consumido:
+Monster
+Cantidad consumida en gramos
+500
+Caloria del alimento por cada 100 gramos
+47
+Total calorias:
+235.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Bola de Carne
+Cantidad consumida en gramos
+200
+Caloria del alimento por cada 100 gramos
+120
+Total calorias:
+240.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Patatas
+Cantidad consumida en gramos
+100
+Caloria del alimento por cada 100 gramos
+340
+Total calorias:
+340.0

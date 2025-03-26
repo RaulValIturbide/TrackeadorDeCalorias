@@ -45,6 +45,11 @@ public class Menu {
     public static void limpiarBuffer(){
         teclado.nextLine();
     }
+  public static void limpiarPantalla() {
+    System.out.print("\033[H\033[2J");
+    System.out.flush();
+    
+}
     
     /**
      * Este metodo pretende ser usado para que el usuario no seleccione un numero fuera del rango
