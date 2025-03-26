@@ -1,6 +1,5 @@
 
 package Alimentacion;
-import Interfaz.Menu;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
@@ -14,13 +13,13 @@ import Exception.MenorACeroException;
 public class FicheroDia {
 
     public static Scanner teclado = new Scanner(System.in);
-    
+        //Ruta desde la que se ejecuta en el powerShell
+       static String ruta = "..\\Data\\Dias\\" + sacarDia();
+        //Ruta desde la que se ejecuta en el netbeans
+       static String rutaAlt = ".\\Data\\Dias\\"+sacarDia();
     
     public static void nuevoDia() {
-        //Ruta desde la que se ejecuta en el powerShell
-        String ruta = "..\\Data\\Dias\\" + sacarDia();
-        //Ruta desde la que se ejecuta en el netbeans
-        String rutaAlt = ".\\Data\\Dias\\"+sacarDia();
+
         try {          
             FileWriter fichero = new FileWriter(ruta,true);        
             fichero.write(separacion());

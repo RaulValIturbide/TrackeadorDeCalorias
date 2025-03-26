@@ -5,7 +5,6 @@
 package Principal;
 import Alimentacion.FicheroDia;
 import Interfaz.Menu;
-import java.util.Scanner;
 
 /**
  *
