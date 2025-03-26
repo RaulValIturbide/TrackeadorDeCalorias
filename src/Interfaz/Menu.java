@@ -4,6 +4,7 @@ package Interfaz;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+import Alimentacion.FicheroCalData;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 /**
@@ -26,7 +27,7 @@ public class Menu {
             try {
                 System.out.println("Que deseas hacer?");
                 System.out.println("1-Introducir datos");
-                System.out.println("2-Consultar comidas");
+                System.out.println("2-Consultar calorias consumidas hoy");
                 System.out.println("\n0-Salir");
                 System.out.print(">>");
                 usuario = teclado.nextInt();
@@ -67,6 +68,16 @@ public class Menu {
         }
         return correcto;
         }
+    
+    public static void mostrarCaloriasTotales(){
+        System.out.println("El numero de calorias consumidas hoy es de:");
+        System.out.println(FicheroCalData.totalCalorias() + " calorias en total");
+        System.out.println("Presione enter para volver al menú.");
+        teclado.nextLine();
+        teclado.nextLine();
+
+    }
+    
     
     
     

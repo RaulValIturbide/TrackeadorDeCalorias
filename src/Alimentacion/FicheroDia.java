@@ -18,15 +18,15 @@ public class FicheroDia {
     
     public static void nuevoDia() {
         //Ruta desde la que se ejecuta en el powerShell
-        String ruta = "..\\Data\\" + sacarDia();
+        String ruta = "..\\Data\\Dias\\" + sacarDia();
         //Ruta desde la que se ejecuta en el netbeans
-        String rutaAlt = ".\\Data\\"+sacarDia();
+        String rutaAlt = ".\\Data\\Dias\\"+sacarDia();
         try {          
             FileWriter fichero = new FileWriter(ruta,true);        
             fichero.write(separacion());
             fichero.write(nuevoAlimento());
             fichero.close();
-            System.out.println("Alimento introducido con éxito.\nPresione cualquier botón para volver al menú.");
+            System.out.println("Alimento introducido con éxito.\nPresione enter para volver al menú.");
             teclado.nextLine();
             
         } catch (IOException ex) {
@@ -44,7 +44,7 @@ public class FicheroDia {
          return alimentoCompleto;
     }
     
-    private static String sacarDia(){
+    protected static String sacarDia(){
     LocalDate reloj = LocalDate.now();
     String dia = String.valueOf(reloj.getDayOfMonth());
     String mes = String.valueOf(reloj.getMonthValue());
@@ -108,6 +108,8 @@ public class FicheroDia {
         // Cálculo de calorías totales
         data[7] = calculoCalorico(data[5], data[6]);
         
+        FicheroCalData.crearDatosCalDia((data[7]));
+        
         return data;
     }
     
@@ -122,8 +124,8 @@ public class FicheroDia {
         double gramosNum =  Integer.parseInt(gramos);
         
         double resultado = (gramosNum/100) * caloriaNum;
-        
-        return String.valueOf(resultado);
+        String resultadoFormateado = String.format("%.2f", resultado);
+        return resultadoFormateado;
         
     }
     

@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package Principal;
+import Alimentacion.FicheroCalData;
 import Alimentacion.FicheroDia;
 import Interfaz.Menu;
 import java.util.Scanner;
@@ -29,7 +30,8 @@ public class Main {
                     FicheroDia.nuevoDia();
                         
                     break;
-                case 2:
+                case 2: 
+                    Menu.mostrarCaloriasTotales();
                     break;
                 case 0:
                     endProgram = true;
