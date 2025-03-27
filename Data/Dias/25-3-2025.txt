@@ -1,0 +1,84 @@
+
+	Nuevo Alimento:
+Alimento consumido:
+Judias Blancas
+Cantidad consumida en gramos
+200
+Caloria del alimento por cada 100 gramos
+86
+Total calorias:
+172.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Pan
+Cantidad consumida en gramos
+30
+Caloria del alimento por cada 100 gramos
+230
+Total calorias:
+69.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Pechuga empanada
+Cantidad consumida en gramos
+100
+Caloria del alimento por cada 100 gramos
+140
+Total calorias:
+140.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Croqueta
+Cantidad consumida en gramos
+40
+Caloria del alimento por cada 100 gramos
+130
+Total calorias:
+52.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Bocadillo tortilla
+Cantidad consumida en gramos
+80
+Caloria del alimento por cada 100 gramos
+180
+Total calorias:
+144.0
+
+	Nuevo Alimento:
+Alimento consumido:
+empanada
+Cantidad consumida en gramos
+100
+Caloria del alimento por cada 100 gramos
+220
+Total calorias:
+220.0
+
+	Nuevo Alimento:
+Alimento consumido:
+Monster
+Cantidad consumida en gramos
+100
+Caloria del alimento por cada 100 gramos
+230
+Total calorias:
+230.0
+
+	Nuevo Alimento:
+10.0
+	Nuevo Alimento:
+1000.0
+	Nuevo Alimento:
+Alimento consumido:
+Pan
+Cantidad consumida en gramos
+100
+Caloria del alimento por cada 100 gramos
+10
+Total calorias:
+10.0
