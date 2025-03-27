@@ -1,4 +1,4 @@
 @echo off
-cd /d .\dist
+cd /d "%~dp0dist"
 java -jar ContadorDeCalorias.jar
 pause

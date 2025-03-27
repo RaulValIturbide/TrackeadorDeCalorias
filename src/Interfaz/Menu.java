@@ -16,7 +16,7 @@ public class Menu {
     
     /**
      * La primera pagina que se encuentra el usuario
-     * @return devolverá un numero
+     * @return devolverÃ¡ un numero
      */
     public static int Introduccion(){
         boolean correcto = false;
@@ -54,7 +54,7 @@ public class Menu {
     }
 
     public static void volverMenu() {
-        System.out.println("Presione enter para volver al menú.");
+        System.out.println("Presione enter para volver al menÃº.");
         teclado.nextLine();
         teclado.nextLine();
     }
@@ -64,7 +64,7 @@ public class Menu {
      * @param usuario el numero que ha introducido el usuario
      * @param rangoMin el numero min que debe usar el usuario (inclusive)
      * @param rangoMax el numero max que debe usar el usuari (inclusive)
-     * @return nos devolverá true si cumple el rango o false si no lo hace
+     * @return nos devolverÃ¡ true si cumple el rango o false si no lo hace
      */
     private static boolean rangoCorrecto(int usuario,int rangoMin,int rangoMax){
         boolean correcto = false;
@@ -77,22 +77,23 @@ public class Menu {
         }
     
     /**
-     * Metodo para mostrar las calorias por pantalla, si devuelve null se entiende que no existe ningún dato realizado en el dia de hoy por lo que se lanza
+     * Metodo para mostrar las calorias por pantalla, si devuelve null se entiende que no existe ningÃºn dato realizado en el dia de hoy por lo que se lanza
      * el mensaje pertinente
      */
     public static void mostrarCaloriasTotales() {
         if (FicheroCalData.totalCalorias() == null) {
             System.out.println("No hay datos de ninguna comida realizada hoy.\nPruebe a introducir un alimento primero.\n");
-            System.out.println("Presione enter para volver al menú.");
+            System.out.println("Presione enter para volver al menÃº.");
             teclado.nextLine();//buffer
             teclado.nextLine();
         } else {
             System.out.println("El numero de calorias consumidas hoy es de:");
             System.out.println(FicheroCalData.totalCalorias() + " calorias en total");
-            System.out.println("Presione enter para volver al menú.");
+            System.out.println("Presione enter para volver al menÃº.");
             teclado.nextLine();//buffer
             teclado.nextLine();
         }
+
 
     }
     
