@@ -70,6 +70,7 @@ public class Menu {
         }
     
     public static void mostrarCaloriasTotales(){
+        limpiarPantalla();
         System.out.println("El numero de calorias consumidas hoy es de:");
         System.out.println(FicheroCalData.totalCalorias() + " calorias en total");
         System.out.println("Presione enter para volver al menú.");

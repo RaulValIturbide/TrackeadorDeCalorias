@@ -13,6 +13,7 @@ import Interfaz.Menu;
 public class Main {
 
 /*
+*TO DO: Error fatal si el usuario clica en la opcion 2 nada más empezar un nuevo dia
 *TO DO: Hay que tener en cuenta que depende de si queremos iniciar el programa en el propio ide o en el cmd debemos cambiar la ruta tanto en FicheroCalData como en FicheroDia ya que la ruta es diferente
 *TO DO: Estaría genial que pudiesemos generar las carpetas "Data" "Dias" y "CalData" en el caso de que estas no existieran de manera automática
 *TO DO: Añadir un nuevo case en el menu principal que nos permita recorrer toda la comida que hemos tomado hoy
