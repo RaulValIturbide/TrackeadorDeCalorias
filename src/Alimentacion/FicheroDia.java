@@ -1,11 +1,14 @@
 
 package Alimentacion;
 import java.io.FileWriter;
+import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 import Exception.MenorACeroException;
+import Interfaz.Menu;
+import java.io.FileNotFoundException;
 /**
  *
  * @author baske
@@ -25,8 +28,8 @@ public class FicheroDia {
             fichero.write(separacion());
             fichero.write(nuevoAlimento());
             fichero.close();
-            System.out.println("Alimento introducido con éxito.\nPresione enter para volver al menú.");
-            teclado.nextLine();
+            System.out.println("Alimento introducido con éxito.");
+            Menu.volverMenu();
             
         } catch (IOException ex) {
             System.out.println("Error" + ex.getMessage());
@@ -126,6 +129,28 @@ public class FicheroDia {
         String resultadoFormateado = String.format("%.2f", resultado);
         return resultadoFormateado;
         
+    }
+    
+    public static void leerAlimentosDeHoy() {
+
+        try {
+            FileReader lector = new FileReader(ruta);
+
+            int data = lector.read();
+
+            while (data != -1) {
+                System.out.print((char) data);
+                data = lector.read();
+            }
+            lector.close();
+
+        } catch (FileNotFoundException ex) {
+            System.out.println("No se encuentra el archivo");
+        } catch (IOException e) {
+            System.out.println("Error fatal con el lector de alimentos de hoy");
+        }
+        Menu.volverMenu();
+
     }
     
 }
