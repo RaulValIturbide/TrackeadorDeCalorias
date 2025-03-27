@@ -1,26 +1,6 @@
 
 	Nuevo Alimento:
 Alimento consumido:
-Sandwich de chorizo
-Cantidad consumida en gramos
-120
-Caloria del alimento por cada 100 gramos
-200
-Total calorias:
-240,00
-
-	Nuevo Alimento:
-Alimento consumido:
-Croquetas
-Cantidad consumida en gramos
-50
-Caloria del alimento por cada 100 gramos
-130
-Total calorias:
-65,00
-
-	Nuevo Alimento:
-Alimento consumido:
 Monster
 Cantidad consumida en gramos
 500
@@ -31,30 +11,10 @@ Total calorias:
 
 	Nuevo Alimento:
 Alimento consumido:
-Pizza
+Pizza jamon york
 Cantidad consumida en gramos
 220
 Caloria del alimento por cada 100 gramos
 240
 Total calorias:
 528,00
-
-	Nuevo Alimento:
-Alimento consumido:
-Patatas
-Cantidad consumida en gramos
-80
-Caloria del alimento por cada 100 gramos
-440
-Total calorias:
-352,00
-
-	Nuevo Alimento:
-Alimento consumido:
-Bola de Carne
-Cantidad consumida en gramos
-130
-Caloria del alimento por cada 100 gramos
-240
-Total calorias:
-312,00

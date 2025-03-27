@@ -6,6 +6,7 @@ package Alimentacion;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.FileReader;
+import java.io.FileNotFoundException;
 /**
  *
  * @author baske
@@ -45,8 +46,10 @@ public class FicheroCalData {
                 data = lector.read();
             }
             lector.close();
-        } catch (IOException e) {
-            System.out.println("Error con lector");
+        } catch (FileNotFoundException ex) {
+            return null;
+        } catch (IOException e){
+            System.out.println("Excepcion máxima con el lector");
         }
         System.out.println("");//Salto de linea
 

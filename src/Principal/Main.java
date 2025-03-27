@@ -29,11 +29,18 @@ public class Main {
             
             switch (main) {
                 case 1:
+                    Menu.limpiarPantalla();
                     FicheroDia.nuevoDia();
                         
                     break;
                 case 2: 
+                    Menu.limpiarPantalla();
                     Menu.mostrarCaloriasTotales();
+                    break;
+                    
+                case 3:
+                    Menu.limpiarPantalla();
+                    FicheroDia.leerAlimentosDeHoy();
                     break;
                 case 0:
                     System.out.println("Muchas gracias, vuelva pronto");
