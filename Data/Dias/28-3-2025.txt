@@ -1,0 +1,10 @@
+
+	Nuevo Alimento:
+Alimento consumido:
+Bocadillo de Bacon
+Cantidad consumida en gramos
+110
+Caloria del alimento por cada 100 gramos
+240
+Total calorias:
+264,00

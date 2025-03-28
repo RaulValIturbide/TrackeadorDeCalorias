@@ -145,7 +145,7 @@ public class FicheroDia {
             lector.close();
 
         } catch (FileNotFoundException ex) {
-            System.out.println("No se encuentra el archivo");
+            System.out.println("No hay datos de ninguna comida realizada hoy.\nPruebe a introducir un alimento primero.\n");
         } catch (IOException e) {
             System.out.println("Error fatal con el lector de alimentos de hoy");
         }

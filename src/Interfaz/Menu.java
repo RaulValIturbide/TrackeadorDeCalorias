@@ -32,12 +32,14 @@ public class Menu {
                 System.out.println("\n0-Salir");
                 System.out.print(">>");
                 usuario = teclado.nextInt();
-                if(rangoCorrecto(usuario,0,3)){
+                if(rangoCorrecto(usuario,0,4)){
                     correcto = true;
                 }
             } catch (InputMismatchException ex) {
+                limpiarPantalla();
                 System.out.println("Error: Introduzca un valor numerico");
                 limpiarBuffer();    
+                limpiarBuffer();
             }
         } while (!correcto);
         
@@ -54,7 +56,7 @@ public class Menu {
     }
 
     public static void volverMenu() {
-        System.out.println("Presione enter para volver al menú.");
+        System.out.println("Presione enter para volver al menu.");
         teclado.nextLine();
         teclado.nextLine();
     }
@@ -83,13 +85,13 @@ public class Menu {
     public static void mostrarCaloriasTotales() {
         if (FicheroCalData.totalCalorias() == null) {
             System.out.println("No hay datos de ninguna comida realizada hoy.\nPruebe a introducir un alimento primero.\n");
-            System.out.println("Presione enter para volver al menú.");
+            System.out.println("Presione enter para volver al menu.");
             teclado.nextLine();//buffer
             teclado.nextLine();
         } else {
             System.out.println("El numero de calorias consumidas hoy es de:");
             System.out.println(FicheroCalData.totalCalorias() + " calorias en total");
-            System.out.println("Presione enter para volver al menú.");
+            System.out.println("Presione enter para volver al menu.");
             teclado.nextLine();//buffer
             teclado.nextLine();
         }
